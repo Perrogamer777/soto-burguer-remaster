@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+header.barrita{
+    background-color: rgb(42, 47, 79);
+    padding: 15px 20px;
+}
+
+header.barrita .logo, header.barrita ul li a{
+    color: white;
+}
+
+header .logo{
+    position: relative;
+    color: black;
+    font-size: 2em;
+    transition: 1.5s;
+    text-decoration: none;    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: 0.7s;
+    color: black;
+
+}
+
+header .logo{
+    position: relative;
+    color: black;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+.parraf1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(145, 127, 179);
+    
+}
